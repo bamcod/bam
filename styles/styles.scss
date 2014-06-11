@@ -1,10 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 body{
 	background-image: url("stripes.png");
 	background-repeat: repeat;
 	background-attachment: fixed;
 	font-family: Oswald;
+	font-weight: light;
 }
 
+h1, h2, h3, h4, h5{
+	font-family: Oswald;
+}
 .marginwrapper.menu{
 	margin-bottom:15px;	
 }
