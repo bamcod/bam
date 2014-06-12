@@ -1,0 +1,50 @@
+	.prog{
+		section{
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 25px;
+			&:nth-child(2n){
+				text-align: right;
+				.image, .artists, .description{
+					float: right;
+				}
+			}
+		}
+		.contents{
+			background: rgba(0,0,0,0.8);
+			display: inline-block;
+			width: 100%;
+			color: white;
+			padding: 10px 0px;
+			img{
+				margin-bottom: 10px;
+				@media #{$tablet}
+				{
+				  margin-bottom:  0;
+				}
+			}
+		}
+		.prog h1{
+			font-size: 2em;
+			text-transform: uppercase;
+			font-family: Oswald;
+			width: 100%;
+			border-bottom: black solid 1px;
+			margin-bottom: 15px;
+		}
+		.artists, .image, .description{
+			float: left;
+		}
+		.artists{
+			font-family: Oswald;
+		}
+		.artist{
+			margin-bottom: 5px;
+		}
+		.name{
+			font-size: large;
+		}
+		.gig{
+			font-size: normal;
+		}
+	}

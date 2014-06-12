@@ -1,0 +1,91 @@
+$page_count: 6;
+nav{
+		margin-bottom: 25px;
+		display: inline-block;
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		
+	ul{
+		display: inline-block;
+		width: 100%;
+		border-bottom: 1px solid $brand-color;
+	}
+	li {
+		@media #{$tablet}
+		{
+			width: 98%/$page_count;
+			display: inline-block;
+		}
+		text-align: center;
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: x-large;
+			color: inherit;
+			&:hover{
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+		&.active, &:hover{
+			background: black;
+			color: $brand-color;
+			border-top: 1px solid $brand-color;
+			border-left: 1px solid $brand-color;
+			border-right: 1px solid $brand-color;
+		}
+	}
+}
+
+/* Important styles */
+#toggle {
+
+  width: 28px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+}
+
+/* on activation */
+#toggle:not(.collapsed) span {
+  background-color: transparent;
+}
+#toggle:not(.collapsed) span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+  -webkit-transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle:not(.collapsed) span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+  -webkit-transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle:not(.collapsed) + #menu {
+  opacity: 1;
+}
+
+
