@@ -1,0 +1,83 @@
+.artist-list{ 
+	.artist{	
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		list-style: none;
+		position: relative;
+		cursor: pointer;
+		.artist-name, .artist-gig{
+			float: left;
+			color: white;
+			font-family: Oswald;
+			font-size: x-large;
+		}
+		.artist-gig{
+			color: rgb(180,180,180);
+		}
+
+		.description{
+			margin-top: -40px;
+			display: inline-block;
+			cursor: auto;
+			background-color: rgba(0,0,0,0.8);
+			color: white;
+			padding-top: 40px;
+			opacity: 0;
+			transition: all 0.5s ease-out;
+		}
+		&.open .description{
+			opacity: 1;
+		}
+	}
+
+	& .close{
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		cursor: pointer;
+		width: 15px;
+		height: 15px;
+	}
+	& .close{
+		&:hover:before, &:hover:after{
+			height: 10px;
+		}
+		&:before,
+		&:after {
+			position: absolute;
+			left: 0;
+			width: 15px;
+			height: 3px;
+			background: white;
+			content: '';
+			-webkit-transition: all 0.2s;
+			   -moz-transition: all 0.2s;
+			        transition: all 0.2s;
+		}
+		&:before {
+			-webkit-transform: translateY(0) rotate(45deg);
+			transform: translateY(0) rotate(45deg);
+		}
+
+		&:after {
+			-webkit-transform: translateY(0) rotate(-45deg);
+			transform: translateY(0) rotate(-45deg);
+		}
+	}
+	 h2{
+		padding-left: 5px;
+		text-transform: uppercase;
+	}
+	h2, h3{
+		position: relative;
+		z-index: 10;
+	}
+	}
+
+.artist-gig::before{
+	content: "//";
+	color: yellow;
+	margin: 0 10px;
+}

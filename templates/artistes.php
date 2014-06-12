@@ -1,163 +1,96 @@
-<ul class="artist-list">
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/1024.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-				<iframe src="//player.vimeo.com/video/43788294?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<div class="body">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</div>
-		<h2 class="artist-name">1024 Architecture</h2>
-		<h3 class="artist-gig">Crise</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/nonotak.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
+<?php 
+$artists = array(
+	array(
+		'name' => '1024 Architecture',
+		'gig' => 'Crise',
+		'video' => '43788294',
+		'image' => '1024.jpg',
+		'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+		),
+	array(
+		'image' => "nonotak.jpg",
+		'name' => "Nonotak",
+		'gig' => "Late Speculation",
+		),
+	array(
+		'image' => "cenc.jpg",
+		'name' => "CENC",
+		'gig' => "Disorder",
+		),
+	array(
+		'image' => "lsd.jpg",
+		'name' => "Rhythm/Vision",
+		'gig' => "L.S.D",
+		),
+	array(
+		'image' => "if.jpg",
+		'name' => "If",
+		'gig' => "Installation/Relab",
+		),
+	array(
+		'image' => "jacques.jpg",
+		'name' => "Jacques André Dupont",
+		'gig' => "Installation/Tape-Art",
+		),
+	array(
+		'image' => "vj_jago.jpg",
+		'name' => "VJ Jago",
+		'gig' => "VJ Set",
+		),
+	array(
+		'image' => "vj_emiko.jpg",
+		'name' => "VJ Emiko",
+		'gig' => "Performance Audio/Video",
+		),
+	array(
+		'image' => "foolctrl.jpg",
+		'name' => "Fool Control",
+		'gig' => "Mapping Lightshow",
+		),
+	array(
+		'image' => "ronald.jpg",
+		'name' => "Ronald Dagonnier",
+		'gig' => "Installation",
+		),
+	array(
+		'image' => "mike.jpg",
+		'name' => "Mike Latona",
+		'gig' => "Installation",
+		),
+	array(
+		'image' => "refractionlab.jpg",
+		'name' => "Refraction Lab",
+		'gig' => "Installation Interactive",
+		),
+	);
+	?>
 
-			</div>
-			<div class="body">
+	<ul class="artist-list row">
+		<?php foreach ($artists as $artist): ?>
+			<li class="artist col-xs-12" >
+				<div style="background-image:url('http://bamfestival.be/images/<?php print $artist['image']?>')">
+				<h2 class="artist-name">					
+					<?php print $artist['name']; ?>
+				</h2>
+				<h3 class="artist-gig">
+					<?php print $artist['gig']; ?>
+				</h3>
+				<div class="description">
+					<div class="close"></div>
+					<div class="video col-xs-12 col-sm-4 col-md-5">
+						<?php print to_vimeo($artist['video']); ?>
+					</div>
+					<div class="body col-xs-12 col-sm-8 col-md-7">
+						<?php print $artist['body'] ?>
+					</div>
+				</div>
+				</div>
+			</li>
+		<?php endforeach ?>
 
-			</div>
-		</div>
-		<h2 class="artist-name">Nonotak</h2>
-		<h3 class="artist-gig">Late Speculation</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/cenc.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">CENC</h2>
-		<h3 class="artist-gig">Disorder</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/lsd.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">Rhythm/Vision</h2>
-		<h3 class="artist-gig">L.S.D</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/if.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">If</h2>
-		<h3 class="artist-gig">Installation/Relab</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/jacques.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">Jacques André Dupont</h2>
-		<h3 class="artist-gig">Installation/Tape-Art</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/vj_jago.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">VJ Jago</h2>
-		<h3 class="artist-gig">VJ Set</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/vj_emiko.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">VJ Emiko</h2>
-		<h3 class="artist-gig">Performance Audio/Video</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/foolctrl.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">Fool Control</h2>
-		<h3 class="artist-gig">Mapping Lightshow</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/ronald.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">Ronald Dagonnier</h2>
-		<h3 class="artist-gig">Installation</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/mike.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">Mike Latona</h2>
-		<h3 class="artist-gig">Installation</h3>
-	</li>
-	<li class="artist" style="background-image:url('http://bamfestival.be/images/refractionlab.jpg')">
-		<div class="description">
-			<div class="close"></div>
-			<div class="video">
-
-			</div>
-			<div class="body">
-
-			</div>
-		</div>
-		<h2 class="artist-name">Refraction Lab</h2>
-		<h3 class="artist-gig">Installation Interactive</h3>
-	</li>
-</ul>
+	</ul>
