@@ -16,6 +16,7 @@ body{
 	font-family: Oswald;
 	font-weight: light;
 	font-size: 16px;
+	padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5{
@@ -59,9 +60,10 @@ img{
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 52.85%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+	margin-bottom: 5px;
 }
 .videoWrapper iframe {
 	position: absolute;

@@ -1,17 +1,26 @@
 .artist-list{ 
 	.artist{	
 		width: 100%;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
 		list-style: none;
 		position: relative;
 		cursor: pointer;
+		.image-wrapper{
+			display: inline-block;
+			width: 100%;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+		}
 		.artist-name, .artist-gig{
 			float: left;
 			color: white;
 			font-family: Oswald;
 			font-size: x-large;
+		}
+		&:nth-child(2n){
+			.description, .video{
+				float: right;
+			}
 		}
 		.artist-gig{
 			color: rgb(180,180,180);
