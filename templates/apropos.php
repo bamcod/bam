@@ -1,3 +1,4 @@
+<div class="block apropos"> 
 <p>Pour sa premi&egrave;re &eacute;dition, le BAM Festival collabore avec 2 sites culturels li&eacute;geois incontournables - <em>L&rsquo;Acad&eacute;mie des Beaux-Arts de Li&egrave;ge</em> et <em>Le Cadran</em> - mais aussi avec une structure de renom international en mati&egrave;re d&rsquo;arts num&eacute;riques : <em>le Mapping Festival</em> de Gen&egrave;ve. Le BAM Festival propose un panel d&rsquo;activit&eacute;s s&rsquo;&eacute;talant sur 4 jours : installations sur des sites centriques de la ville de Li&egrave;ge ; performances live d&rsquo;artistes internationaux en premi&egrave;re exclusivit&eacute; belge ; workshops avec un artiste belge de renom, conf&eacute;rences et tables de discussion avec des professionnels du secteur des arts num&eacute;riques ; etc...<br />
 Avec sa programmation de renom, ses diff&eacute;rents partenaires, sa vari&eacute;t&eacute; d&rsquo;activit&eacute;s, et son emplacement centrique, le BAM Festival se veut un festival ouvert &agrave; un large public. Toute personne avide de culture s&rsquo;y retrouvera. Il n&rsquo;est pas question de cibler les avertis d&rsquo;arts num&eacute;riques ni de vulgariser cette discipline artistique pour plaire aux novices. La programmation du festival permet &agrave; chacun d&rsquo;&eacute;changer, de d&eacute;couvrir, d&rsquo;&ecirc;tre interpel&eacute; tout simplement. Nous souhaitons dynamiser la sc&egrave;ne des arts num&eacute;riques en R&eacute;gion Li&eacute;geoise mais aussi &agrave; plus haute &eacute;chelle : en Belgique.</p>
 
@@ -13,3 +14,4 @@ Le Bam Festival c&rsquo;est <em>20 artistes, dont 12 internationaux, 4 performan
 <p>Nous sommes fier d&rsquo;inviter les cr&eacute;ateurs des deux logiciels far du mapping et vj&rsquo;ing, MadMapper et Modul8, ainsi que la Dream Team du Mapping Festival de Gen&egrave;ve.&nbsp;<br />
 Une programmation de qualit&eacute; et l envie de communique&nbsp;</p>
 
+</div>

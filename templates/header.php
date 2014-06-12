@@ -4,6 +4,7 @@
 	<a href="/">
 		<img src="/images/logo.png" alt="" class="logo">
 	</a>
+	<h1 style="text-align: center; ">UNDER CONSTRUCTION</h1>
 
 	<nav class=".col-xs-12" role="navigation">
 		<!-- Brand and toggle get grouped for better mobile display -->

@@ -8,7 +8,7 @@
 			<ul class="artists col-xs-12 col-sm-8 col-md-7">
 				<li class="artist"><span class="artist-name">1024 Architecture</span> <span class="artist-gig">Crise</span></li>
 				<li class="artist"><span class="artist-name">CENC</span> <span class="artist-gig">Disorder [Danse]</span></li>
-				<li class="artist"><span class="artist-name">Nonotak</span> <span class="artist-gig">Late Speculation[A/V]</span></li>
+				<li class="artist"><span class="artist-name">Nonotak</span> <span class="artist-gig">Late Speculation [A/V]</span></li>
 				<li class="artist"><span class="artist-name">Rhythm/Vision</span> <span class="artist-gig">L.S.D. [Light, Sound + Death]</span></li>
 			</ul>
 		</div>
@@ -50,9 +50,9 @@
 			<div class="contents">
 				<img class="image col-xs-12 col-sm-4 col-md-5" src="/images/prog_conf.jpg" alt="">
 				<ul class="artists col-xs-12 col-sm-8 col-md-7">
-					<li class="artist"><em>Présentation du nouveau logiciel open source de mapping</em> de Mike Latona</li>
-					<li class="artist"><em>Etat des lieux du secteur des arts numériques en Belgiques</em> par un professionnels (savoir cibler les appels à projets, comment monter un dossier, qu’est ce que la Commission des Arts Numériques, quels sont les artistes belges émergents ?</li>
-					<li class="artist">Présentation d’un évènement de culture numérique de réputation internationale, <em>Le Mapping Festival</em>, par Justine Beaujouan chargée de la programmation chez Revershead.</li>
+					<li class="artist">Présentation du nouveau logiciel open source de mapping de Mike Latona</li>
+					<li class="artist">Etat des lieux du secteur des arts numériques en Belgiques par un professionnels (savoir cibler les appels à projets, comment monter un dossier, qu’est ce que la Commission des Arts Numériques, quels sont les artistes belges émergents ?</li>
+					<li class="artist">Présentation d’un évènement de culture numérique de réputation internationale, Le Mapping Festival, par Justine Beaujouan chargée de la programmation chez Revershead.</li>
 				</ul>
 			</div>
 		</section>

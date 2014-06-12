@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:400);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400);
 $brand-color: #f0E700;
 $mobile: "(max-width:767px)";
 $tablet: "(min-width:767px)";
@@ -8,15 +8,17 @@ $lg: "(min-width:1200px)";
 @import "artists";
 @import "prog";
 @import "header";
+@import "home";
 
 body{
 	background-image: url("stripes.png");
 	background-repeat: repeat;
 	background-attachment: fixed;
 	font-family: Oswald;
-	font-weight: light;
-	font-size: 16px;
+	font-weight: 300;
+	font-size: 18px;
 	padding-bottom: 50px;
+	letter-spacing: 1.5px;
 }
 
 h1, h2, h3, h4, h5{
@@ -28,7 +30,9 @@ h1, h2, h3, h4, h5{
 	display: block;
 }
 em{
-	font-weight: bold;
+	font-weight: inherit;
+	color: $brand-color;
+	font-style: normal;
 }
 li{
 	list-style: none;
@@ -86,4 +90,10 @@ ul{
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+.block{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 10px;
 }
