@@ -18,7 +18,7 @@ angular.module('Tumblr', []).factory('Tumblr', [
 	'$http', function($http) {
 		var key, url;
 		key = 'Xnsw33dvljWQFIePN5ZmZnvpM8EwXr2ute17lWNsLrudht0KW1';
-		url = "http://api.tumblr.com/v2/blog/walidvb.tumblr.com/posts?";
+		url = "http://api.tumblr.com/v2/blog/bamfestival.tumblr.com/posts?";
 		url += 'api_key=' + key;
 		this.getPosts = function(settings, cb) {
 			var value;
