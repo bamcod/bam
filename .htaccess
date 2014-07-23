@@ -1,6 +1,0 @@
-DirectoryIndex index.php index.html index.htm
-
-RewriteEngine on
-RewriteRule ^([a-zA-Z0-9]+)$ index.php#$1
-RewriteRule ^([a-zA-Z0-9]+)/$ index.php#$1
-RewriteRule ^/$ index.php#tellinbig

@@ -9,6 +9,7 @@ $lg: "(min-width:1200px)";
 @import "prog";
 @import "header";
 @import "home";
+@import "infos";
 
 body{
 	background-image: url("stripes.png");
@@ -20,7 +21,9 @@ body{
 	padding-bottom: 50px;
 	letter-spacing: 1.5px;
 }
-
+.yellow{
+	color: $brand-color;
+}
 h1, h2, h3, h4, h5{
 	margin-top: 5px;
 	font-family: Oswald;
@@ -77,8 +80,29 @@ img{
 	height: 100%;
 }
 
-
+.second{
+	text-align: right;
+}
 // RESETS
+tr{
+	&:after{
+		content: '';
+		width: 80%;
+		height: 1px;
+		background: $brand-color;
+		margin: auto;
+		display: block;
+	}
+	margin-bottom: 5px;
+	td{
+		vertical-align: top;
+		&:first-child{
+			padding-right: 15px;
+			color: $brand-color;
+			text-align: right;
+		}
+	}
+}
 ul{
   list-style-type: none;
   -webkit-margin-before: 0;
@@ -93,7 +117,9 @@ ul{
 }
 
 .block{
-	background-color: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.8);
 	color: white;
 	padding: 10px;
+	margin-bottom: 5px;
+	border-bottom: 10px $brand-color solid;
 }
