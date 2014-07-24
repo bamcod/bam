@@ -94,9 +94,17 @@
 	#cenc{
 		background-position: center 100%;
 	}
+	a{
+		color: lighten($brand-color, 55%);
+		text-decoration: none;
+		&:hover{
+			color: $brand-color;
+			text-decoration: underline;	
+		}
+	}
 }
 
-.artist-gig::before{
+.artist-gig::before, .artist-date::before{
 	content: "//";
 	color: yellow;
 	margin: 0 10px;

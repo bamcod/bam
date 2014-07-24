@@ -4,14 +4,8 @@ unset($images[0]);
 unset($images[1]);
 ?>
 <div class="row">
-	<div id="home-carousel" class="carousel slide" data-ride="carousel">
+	<div id="home-carousel" class="carousel col-xs-12 slide" data-ride="carousel">
 	  <!-- Indicators -->
-	  <ol class="pagers carousel-indicators">
-	  	<?php foreach($images as $index => $image): ?>
-	    <li data-target="#home-carousel" data-slide-to="<?php print $index-2 ?>" class="pager <?php print $index == 2 ? 'active' : '' ?>"></li>
-	  <?php endforeach; ?>
-	  </ol>
-
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner">
 	  	<?php foreach($images as $index => $image): ?>
@@ -21,23 +15,60 @@ unset($images[1]);
 	    <?php endforeach; ?>
 	  </div>
 
+	  <div class="indicators-wrapper">
+		  <ol class="pagers carousel-indicators">
+		  	<?php foreach($images as $index => $image): ?>
+		    <li data-target="#home-carousel" data-slide-to="<?php print $index-2 ?>" class="pager <?php print $index == 2 ? 'active' : '' ?>"></li>
+		  <?php endforeach; ?>
+		  </ol>
+		</div>
 	  <!-- Controls -->
-	  <a class="left carousel-control" href="#home-carousel" data-slide="prev">
+	  <!-- <a class="left carousel-control" href="#home-carousel" data-slide="prev">
 	    <span class="glyphicon glyphicon-chevron-left"></span>
 	  </a>
 	  <a class="right carousel-control" href="#home-carousel" data-slide="next">
 	    <span class="glyphicon glyphicon-chevron-right"></span>
-	  </a>
+	  </a> -->
 	</div>
 </div>
 <div class="row">
 	<div class=" col-xs-12 col-md-4">
+	<h1>BAM</h1>
 	<div class="block">
-		<p>Pour sa premi&egrave;re &eacute;dition, le BAM Festival collabore avec 2 sites culturels li&eacute;geois incontournables - <em>L&rsquo;Acad&eacute;mie des Beaux-Arts de Li&egrave;ge</em> et <em>Le Cadran</em> - mais aussi avec une structure de renom international en mati&egrave;re d&rsquo;arts num&eacute;riques : <em>le Mapping Festival</em> de Gen&egrave;ve. Le BAM Festival propose un panel d&rsquo;activit&eacute;s s&rsquo;&eacute;talant sur 4 jours : installations sur des sites centriques de la ville de Li&egrave;ge ; performances live d&rsquo;artistes internationaux en premi&egrave;re exclusivit&eacute; belge ; workshops avec un artiste belge de renom, conf&eacute;rences et tables de discussion avec des professionnels du secteur des arts num&eacute;riques ; etc...<br />
-		Avec sa programmation de renom, ses diff&eacute;rents partenaires, sa vari&eacute;t&eacute; d&rsquo;activit&eacute;s, et son emplacement centrique, le BAM Festival se veut un festival ouvert &agrave; un large public. Toute personne avide de culture s&rsquo;y retrouvera. Il n&rsquo;est pas question de cibler les avertis d&rsquo;arts num&eacute;riques ni de vulgariser cette discipline artistique pour plaire aux novices. La programmation du festival permet &agrave; chacun d&rsquo;&eacute;changer, de d&eacute;couvrir, d&rsquo;&ecirc;tre interpel&eacute; tout simplement. Nous souhaitons dynamiser la sc&egrave;ne des arts num&eacute;riques en R&eacute;gion Li&eacute;geoise mais aussi &agrave; plus haute &eacute;chelle : en Belgique.</p>
+		<div id="accordion">
+			<div class="lang">
+				<a href="#fr" class="lang-trigger yellow">fr</a>
+				/
+				<a href="#en" class="lang-trigger yellow">en</a>
+			</div>
+			<p id="fr" class="lang-text">
+				Du <em>30 septembre au 3 octobre 2014</em>, Liège accueille la première édition de son festival d’arts numériques :<em> « BAM FESTIVAL Electronik art festival »</em>. 
+
+				Nouvel évènement international belge, le BAM Festival présente une programmation de qualité avec une dizaine d’artistes de renommée mondiale en première exclusivité en Belgique. 
+
+				Situé sur deux sites centriques de Liège, l’<em>Ecole Supérieure des Beaux Arts</em> de la ville de Liège et le <em>Cadran</em>,  l’évènement propose un panel d’activités liées à la culture numérique qui s’adressent tant aux professionnels qu’au grand public : expositions, performances live, conférences, workshop, et clubbing. 
+
+
+				Pour la petite histoire…
+
+				Le BAM Festival est né de la collaboration entre son organisateur <em>Mike Latona</em>, l’<em>Académie Royale des Beaux Arts de Liège</em> (en la personne de <em>Ronald Dagonnier</em>), le <em>Cadran</em> et le <em>Mapping Festival</em> de Genève. C’est à coup de mails, de téléphone, de skype et de beaucoup d’énergie que nous avons pu mener à bien le projet et proposer un évènement de qualité qui nous l’espérons n’est que le premier d’une longue série.
+			</p>
+			<p id="en" class="lang-text" style="display:none">
+					From <em>September 30th to October 3rd 2014</em>, Liège is welcoming the first edition of numeric arts: <em>“BAM FESTIVAL Electronik art festival”</em>.
+
+					This new international event will feature for the very first time and in exclusivity in Belgium dozens of world-wide famous and cutting-edge artists.
+
+					Located in central spots of the city of Liège, namely l’<em>Ecole Supérieure des Beaux Arts</em> de la ville de Liège and the <em>Cadran</em>, the event offers a wide variety of activities connected to numeric culture, reaching out to both professionals and the public in general: exhibitions, live performances, conferences, workshops, and even clubbing.
+
+					Just so you know…
+
+					The BAM Festival was created by its organiser, <em>Mike Latona</em>, the <em>Académie Royale des Beaux Arts de Liège</em> (through <em>Ronald Dagonnier</em>), the <em>Cadran</em>, and the <em>Mapping Festival</em> of Geneva. Many e-mails, phone calls, skype calls, and lots of determination were required to put together this sensational project that offers such high-quality events which shall hopefully become the founding stone of a long suite of many more.
+				</p>
+			</div>
 		</div>
 	</div>
 	<div class=" col-xs-12 col-md-8">
+		<h1>News</h1>
 		<div class="block">
 			<my-tumblr></my-tumblr>
 		</div>

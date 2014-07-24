@@ -1,6 +1,6 @@
+<h1>PLUS EN DETAILS...</h1>
 <div class="block apropos"> 
 
-<h2>PLUS EN DETAILS...</h2>
 Le festival d&eacute;bute le <em>mardi 30 septembre 2013 &agrave; l&rsquo;Acad&eacute;mie Royale des Beaux Arts de Li&egrave;ge</em> &ndash; lieu centrique de la ville, o&ugrave; se tiendra l&rsquo;exposition majeure du festival. Au programme pour l&rsquo;inauguration : 4 performances live des artistes 1024 Architecture, CENC, Rythme/Vision et Nonotak personnalit&eacute;s de renom international et jamais produites en Belgique. Il s&rsquo;agit l&agrave; de 4 exclusivit&eacute; belge !<br />
 Du <em>mercredi 1er au jeudi 2 octobre</em> se d&eacute;roule un workshop tenus par Mike Latona. L&rsquo;aboutissement de ces ateliers sera diffus&eacute; lors de la soir&eacute;e de cl&ocirc;ture du festival &agrave; la Rotonde.<br />
 Le jeudi 2 octobre est plac&eacute; sous le signe de l&rsquo;&eacute;change. S&rsquo;y tiendront <em>3 conf&eacute;rences</em> avec des professionnels du secteur des arts num&eacute;riques, une table ronde avec les artistes programm&eacute;s et en cl&ocirc;ture une performance audio-vid&eacute;o live des 1024 Architecture.<br />
